@@ -1,0 +1,128 @@
+.search{
+    min-height: 100vh;
+    background-image: url(../images/book1.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.halfScreen{
+    width: 60%;
+    min-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* position: absolute; */
+    /* top: 0; */
+}
+
+.restOfScreen{
+    width: 40%;
+    min-height: 100vh;
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
+    /* overflow-y: scroll; */
+}
+
+.searchWrapper{
+    width: 60%;
+    margin: auto;
+}
+
+.searchWrapper input{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: black;
+    background-color: bisque;
+}
+
+.custom-select select {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: black;
+    background-color: bisque;
+    border: 1px solid bisque;
+    border-radius: 0px;
+}
+
+.custom-select select option {
+    color: black;
+    background-color: white;
+}
+
+.searchWrapper button{
+    width: 40%;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    margin: 10px 0px;
+    color: white;
+    background-color: #777;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.searchWrapper button:hover{
+    background-color:bisque;
+    color: black;
+}
+
+.halfScreen h1{
+    font-size: 50px;
+    margin: 10px 0px;
+    color: bisque;
+    font-style: "Lora", serif;
+}
+
+.halfScreen h3{
+    margin: 10px 0px;
+    color: bisque;
+}
+
+.headerSearch{
+    width: 100%;
+    background-color: #777;
+    padding: 10px 10px;
+    color: bisque;
+}
+.BookSearchList{
+    margin: 20px 10px;
+}
+
+.bookItem{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 10px;
+    margin: 10px 0px;
+    color: white;
+}
+
+.bookItem h2{
+    margin: 10px 0px;
+}
+.books-list a{
+    text-decoration: none;
+}
+
+.bookItem :hover{
+    background-color: bisque;
+    color: black;
+}
+
+/* .books-list{
+    overflow-y: scroll;
+} */
+
+.books-list{
+    max-height: 100vh;
+    overflow-y: scroll;
+}

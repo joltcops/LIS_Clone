@@ -1,0 +1,40 @@
+.adminHome{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../images/book3.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: centre;
+    flex-direction: column;
+}
+
+.admHomeContainer{
+    width: 100%;
+    height: 50%;
+    padding: 10%;
+    background-color: rgb(0,0,0,0.7);
+    color:bisque;
+}
+
+.admHomeContainer h1{
+    font-family: 'Lora', 'serif';
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+.admHomeContainer h2{
+    color:aliceblue;
+    line-height: 50px;
+    background-color: black;
+}
+
+.admHomeContainer h2:hover{
+    color:black;
+    background-color: bisque;
+}
+
+.options a{
+    text-decoration: none;
+}
+
+

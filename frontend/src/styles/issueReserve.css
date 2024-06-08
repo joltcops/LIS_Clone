@@ -1,0 +1,88 @@
+.fullPage{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    background-image: url('../images/book6.jpg');
+    background-size: cover;
+   
+}
+
+.leftSection{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(0,0,0,0.5);
+    padding: 10px;
+}
+
+.rightSection{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(0,0,0,0.5);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftSection label{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rightSection label{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.leftSection input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.leftSection button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color:bisque;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.leftSection button:hover{
+    background-color: black;
+    color: bisque;
+}
+
+.l{
+    height: 49%;
+    background-color: rgb(255, 228, 196, 0.5);
+    margin-bottom: 1%;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.r{
+    margin-top: 1%;
+    height: 49%;
+    background-color: rgb(255, 228, 196, 0.5);
+    padding: 10px;
+}
+
+.l h3, .r h3{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.l p, .r p{
+    color: black;
+    font-size: 20px;
+}
