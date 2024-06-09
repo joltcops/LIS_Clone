@@ -21,7 +21,10 @@ from django.contrib.auth.models import User as auth_user
 from .models import Req
 from .serializers import ReqSerializer
 from collections import Counter
+from django.http import HttpResponse
 
+def index(request):
+    return HttpResponse("Hello, world!")
 # Create your views here.
 #For user authentication
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
