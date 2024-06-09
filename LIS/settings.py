@@ -12,6 +12,22 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
+import os
+import os
+import sys
+
+# Fetch the PORT environment variable (default to 10000 if not set)
+PORT = int(os.getenv('PORT', 10000))
+
+# Set allowed hosts (you can modify this list as needed)
+ALLOWED_HOSTS = ['*']  # Use a more restrictive setting in production
+
+# Your other settings...
+
+# Update the `runserver` default port
+if 'runserver' in sys.argv:
+    os.environ['DJANGO_RUNSERVER_PORT'] = str(PORT)
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
